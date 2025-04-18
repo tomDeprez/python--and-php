@@ -2,7 +2,7 @@ tom = 25; salut = "ok"
 
 tom
 
-tom = "toto"
+tom = "Bonjour"
 
 demobool = True
 demobool = False
