@@ -1,29 +1,10 @@
-tom = 25; salut = "ok"
-
-tom
-
-tom = "Bonjour"
-
-demobool = True
-demobool = False
-
-#          0    1   2   3
-demotbl = [10, 20, 30, "40"]
-
-
-test = demotbl[3] + "3"
-
-test = 3
+def inverser_chaine(chaine): return ''.join(chaine[i] for i in range(len(chaine)-1, -1, -1))
 
 
 
+print("test"[i] for i in range(4))
 
 
-
-
-
-
-#
-notes = ["Bonjour", 18,["Salut", "Super !", [1, 2, 3]], 20, 14, [0, 5]]
-
-print(notes[2][0])
+# print(inverser_chaine("Bonjour je suis tom j'ai 25ans"))  # Affiche "ruojnoB"
+# print(inverser_chaine("Salut"))  # Affiche "ruojnoB"
+# print(inverser_chaine("Salut"))  # Affiche "ruojnoB"
