@@ -13,7 +13,7 @@ if (true || true) {
 
 
 $index;
-#                   false
+#                   false dzad
 
 
 # Boucle for pour parcourir une plage de nombres
